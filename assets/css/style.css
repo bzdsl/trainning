@@ -933,8 +933,7 @@ a {
     width: 100%;
   }
   .hero .img-block img {
-    align-items: center;
-    width: 100%;
+    /* visibility: hidden; */
   }
 
   .hero .rectangles {
