@@ -362,6 +362,8 @@ a {
 
 .cta-group .watch {
   display: flex;
+
+  align-items: center;
 }
 
 .about .content-block .desc {
@@ -773,6 +775,11 @@ a {
 }
 
 @media only screen and (max-width: 1140px) {
+  .background-header img,
+  .background-contact img,
+  .background-service img {
+    width: 100%;
+  }
   .header .contact-btn {
     margin-left: 0px;
     margin-top: 40px;
@@ -828,11 +835,12 @@ a {
     width: 100%;
     align-items: center;
 
-    margin-left: 50px;
+    /* margin-left: 50px; */
   }
 
   .hero .img-block {
     margin-top: 50px;
+    align-items: center;
   }
 
   .hero .img-block img {
@@ -932,8 +940,14 @@ a {
   .main-content .nav .hide {
     width: 100%;
   }
+
+  .hero .img-block {
+    width: 100%;
+    position: relative;
+    align-items: center;
+  }
   .hero .img-block img {
-    /* visibility: hidden; */
+    width: 100%;
   }
 
   .hero .rectangles {
